@@ -1,4 +1,4 @@
-banana
-melancia
-abacate
-uva
+banana\n
+melancia\n
+abacate\n
+uva\n
