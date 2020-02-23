@@ -11,10 +11,11 @@ def jogar():
     for linha in arquivo:
         linha.strip()
         palavras.append()
-    arquivo.close()
 
-    random.randrange(0,4)
-    palavra_secreta = "maça".upper()
+    arquivo.close()
+    
+    numero = random.randrange(0,len(palavras))
+    palavra_secreta = palavras[numero].upper()
     letras_acertadas = ["_" for letra in palavra_secreta]
 
     erros = 0
